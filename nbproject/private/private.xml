@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/JavaProjectWWeb/src/java/servlets/LoginServlet.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/dal/Borrowing.java</file>
+            <file>file:/D:/JavaProjectWWeb/web/index.html</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/dal/NewHibernateUtil.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/servlets/BookServlet.java</file>
+            <file>file:/D:/JavaProjectWWeb/web/wellcome.html</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/dal/Magazine.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/hibernate.cfg.xml</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/bl/ItemService.java</file>
+            <file>file:/D:/JavaProjectWWeb/web/WEB-INF/web.xml</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/bl/BorrowingService.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/dal/Book.java</file>
+            <file>file:/D:/JavaProjectWWeb/nbproject/build-impl.xml</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/library/Main.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/bl/CustomerService.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/dal/Item.java</file>
+            <file>file:/D:/JavaProjectWWeb/src/java/dal/Customer.java</file>
+        </group>
+    </open-files>
+</project-private>

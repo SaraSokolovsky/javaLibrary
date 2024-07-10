@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <script>
+        window.onload = function() {
+            // Get username from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const username = urlParams.get('username');
+            if (username) {
+                document.getElementById('welcomeMessage').innerText = 'Welcome, ' + username + '!';
+            } else {
+                // Check for username cookie
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith("username=")) {
+                        const username = cookie.substring("username=".length, cookie.length);
+                        document.getElementById('welcomeMessage').innerText = 'Welcome, ' + username + '!';
+                        break;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2 id="welcomeMessage">Welcome!</h2>
+
+    <h3>Borrowing and Returning Books</h3>
+    <form method="post" action="/JavaProjectWWeb/BookServlet">
+        <label for="bookName">Book Name:</label>
+        <input type="text" id="bookName" name="bookName" required><br><br>
+        <button type="submit" name="action" value="borrow">Borrow</button>
+        <button type="submit" name="action" value="return">Return</button>
+    </form>
+</body>
+</html>
